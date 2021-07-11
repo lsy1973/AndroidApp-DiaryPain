@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_location_chart"
+        android:title="Location Chart" />
+
+    <item
+        android:id="@+id/navigation_steps_chart"
+        android:title="Steps Chart " />
+
+    <item
+        android:id="@+id/navigation_line_chart"
+        android:title="Line Chart " />
+
+</menu>

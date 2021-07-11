@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_home_fragment">
+
+    <fragment
+        android:id="@+id/nav_home_fragment"
+        android:name="com.example.paindiary.fragment.HomeFragment"
+        android:label="HomeFragment" />
+    <fragment
+        android:id="@+id/pain_diary_entry_fragment"
+        android:name="com.example.paindiary.fragment.PainDiaryEntryFragment"
+        android:label="PainDiaryEntry" />
+    <fragment
+        android:id="@+id/diary_record_fragment"
+        android:name="com.example.paindiary.fragment.DiaryRecordFragment"
+        android:label="DiaryRecord" />
+    <fragment
+        android:id="@+id/reports_fragment"
+        android:name="com.example.paindiary.fragment.ReportsFragment"
+        android:label="Reports" />
+    <fragment
+        android:id="@+id/maps_fragment"
+        android:name="com.example.paindiary.fragment.MapsFragment"
+        android:label="Maps" />
+</navigation>

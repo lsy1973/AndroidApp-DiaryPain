@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:text="Please input messages:" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+
+        <Spinner
+            android:id="@+id/pain_intensity_level_Spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/painlevel_list"
+            android:dropDownWidth="45dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@id/pain_intensity_level_Spinner"
+            android:text="123"/>
+    </RelativeLayout>
+
+
+
+
+
+
+
+    <Spinner
+        android:id="@+id/pain_location_Spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="15dp"
+        android:entries="@array/painlocation_list"
+        />
+    <Spinner
+        android:id="@+id/mood_Spinner"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingTop="15dp" />
+    <EditText
+        android:id="@+id/et_stepsgoal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="input steps goal"/>
+
+<!--    <TimePicker-->
+<!--        android:id="@+id/timepicker"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:background="#ffffff"-->
+<!--        />-->
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:paddingTop="15dp" />
+
+    <Button
+        android:id="@+id/editButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Edit" />
+    <Button
+        android:id="@+id/timeButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Set Time Alarm" />
+
+</LinearLayout>

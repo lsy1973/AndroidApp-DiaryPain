@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/editSearch"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:hint="  Search Location"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="10dp"/>
+        <Button
+            android:id="@+id/btnGetLocation"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text="Set home location "
+            android:textSize="10dp"
+            android:layout_toRightOf="@id/editSearch"
+            android:backgroundTint="#26A69A" />
+        <TextView
+            android:id="@+id/tvLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_edit"
+            android:textSize="15dp"
+            android:layout_below="@id/btnGetLocation" />
+    </RelativeLayout>
+    <com.amap.api.maps.MapView
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </com.amap.api.maps.MapView>
+</LinearLayout>

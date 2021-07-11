@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.reports.LineChartFragment"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/btnStartDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Click here to select Start Date: "
+            android:textSize="15dp"
+            android:textColor="#000000"/>
+        <TextView
+            android:id="@+id/tvStartDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000000"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <TextView
+        android:id="@+id/btnEndDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click here to select End Date: "
+        android:textSize="15dp"
+        android:textColor="#000000"/>
+    <TextView
+        android:id="@+id/tvEndDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#000000"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/btnTemperature"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Temperature"
+            android:textColor="#D81B60"
+            android:layout_weight="1"/>
+        <TextView
+            android:id="@+id/btnHumidity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#D81B60"
+            android:text="Humidity"/>
+        <TextView
+            android:id="@+id/btnPressure"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#D81B60"
+            android:text="Pressure"/>
+        <TextView
+            android:id="@+id/btnCorrelation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#00897B"
+            android:text="correlation"/>
+    </LinearLayout>
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/lineChart"
+        android:layout_width="match_parent"
+        android:layout_height="500dp" />
+    <TextView
+        android:id="@+id/tvCorrelation"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="#000000"
+        android:textSize="18sp"/>
+
+</LinearLayout>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "676327519333",
+    "project_id": "paindiarysecond",
+    "storage_bucket": "paindiarysecond.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:676327519333:android:9fb5a7fcc96d8add6d028c",
+        "android_client_info": {
+          "package_name": "com.example.paindiarysecond"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "676327519333-qtjdkb9e0g584aje6u2a64tosomgf2vp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.paindiarysecond",
+            "certificate_hash": "13c1e114c9e80812b9316d289df7a0e6fbdb43e9"
+          }
+        },
+        {
+          "client_id": "676327519333-t7nqu0r4lm5ovjudppcuj8449l4ni8vp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCYJ4vtkuqbcJ2zbLvjPl_FTutoLL2F1s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "676327519333-t7nqu0r4lm5ovjudppcuj8449l4ni8vp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

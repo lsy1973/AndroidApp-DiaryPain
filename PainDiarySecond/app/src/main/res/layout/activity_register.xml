@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp">
+    <TextView
+        android:id="@+id/etUsername"
+        android:layout_width="match_parent"
+        android:layout_height="200sp"
+        android:hint=""
+        android:drawablePadding="15dp" />
+
+    <EditText
+        android:id="@+id/et_mail"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Please enter your EmailAddress"
+        android:layout_below="@+id/etUsername"
+        android:background="@drawable/shape_edit"
+        />
+    <EditText
+        android:id="@+id/et_password1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/et_mail"
+        android:layout_marginTop="13dp"
+        android:hint="Please enter the password"
+        android:background="@drawable/shape_edit"
+        android:inputType="textPassword" />
+    <EditText
+        android:id="@+id/et_password2"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/et_password1"
+        android:layout_marginTop="13dp"
+        android:hint="Please enter the password again"
+        android:background="@drawable/shape_edit"
+        android:inputType="textPassword"
+        />
+    <Button
+        android:id="@+id/btn_signup"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_below="@id/et_password2"
+        android:layout_marginTop="56dp"
+        android:layout_marginRight="15dp"
+        android:backgroundTint="#3D5AFE"
+        android:text="Sign Up"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"/>
+
+</RelativeLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.paindiarysecond.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_reports"
+        android:name="com.example.paindiarysecond.ui.reports.ReportsFragment"
+        android:label="Reports"
+        tools:layout="@layout/reports_fragment" />
+    <fragment
+        android:id="@+id/nav_paindataentry"
+        android:name="com.example.paindiarysecond.ui.paindataentry.PainDataEntryFragment"
+        android:label="Pain Data Entry"
+        tools:layout="@layout/pain_data_entry_fragment" />
+    <fragment
+        android:id="@+id/nav_dailyrecord"
+        android:name="com.example.paindiarysecond.ui.dailyrecord.DailyRecordFragment"
+        android:label="Daily Record"
+        tools:layout="@layout/daily_record_fragment" />
+    <fragment
+        android:id="@+id/nav_maps"
+        android:name="com.example.paindiarysecond.ui.maps.MapsFragment"
+        android:label="Maps"
+        tools:layout="@layout/maps_fragment" />
+</navigation>

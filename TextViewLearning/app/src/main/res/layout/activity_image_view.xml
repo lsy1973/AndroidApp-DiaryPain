@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    >
+    <ImageView
+        android:id="@+id/iv_1"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:background="#229887"
+        android:src="@drawable/icon_email"
+        android:scaleType="fitXY"/>
+    <ImageView
+        android:id="@+id/iv_2"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:background="#229887"
+        android:layout_marginTop="15dp"
+        android:layout_below="@id/iv_1"/>
+</RelativeLayout>

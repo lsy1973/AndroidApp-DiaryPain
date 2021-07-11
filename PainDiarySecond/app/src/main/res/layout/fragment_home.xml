@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        app:cardBackgroundColor="#039BE5">
+
+        <ImageView
+            android:id="@+id/ivweatherimg"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/qing"/>
+        <TextView
+            android:id="@+id/tvdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="25dp"
+            android:paddingLeft="20dp"
+            android:text="Date: "
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"/>
+        <TextView
+            android:id="@+id/tvtemp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="50dp"
+            android:paddingLeft="20dp"
+            android:text="Temperature: "
+            android:textColor="#FFFFFF"
+            android:textSize="20dp" />
+        <TextView
+            android:id="@+id/tvhumidity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="75dp"
+            android:paddingLeft="20dp"
+            android:text="Humidity: "
+            android:textColor="#FFFFFF"
+            android:textSize="20dp" />
+        <TextView
+            android:id="@+id/tvpressure"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="100dp"
+            android:paddingLeft="20dp"
+            android:text="Pressure: "
+            android:textColor="#FFFFFF"
+            android:textSize="20dp" />
+    </androidx.cardview.widget.CardView>
+
+    <ImageView
+        android:id="@+id/iv1"
+        android:layout_width="373dp"
+        android:layout_height="231dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/welcome" />
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="              Welcome to Pain Diary!\n Keep records and develop good habits！"
+        android:textSize="20dp"
+        android:textColor="#FF5722"/>
+
+
+
+
+</LinearLayout>
